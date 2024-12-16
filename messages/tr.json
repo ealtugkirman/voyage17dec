@@ -1,0 +1,20 @@
+{
+  "Navbar": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "works": "Çalışmalar",
+    "blog": "Blog",
+    "testimonials": "Referanslar",
+    "faq": "SSS",
+    "contact": "İletişim",
+    "getInTouch": "İletişime Geçin",
+    "menu": "Menü",
+    "identityBranding": "Kimlik & Markalaşma",
+    "webDevelopment": "Web Geliştirme",
+    "uiDesign": "UI Tasarımı",
+    "uxDesign": "UX Tasarımı",
+    "frontendDevelopment": "Frontend Geliştirme",
+    "language": "Dil"
+  }
+}

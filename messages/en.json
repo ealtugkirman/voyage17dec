@@ -1,0 +1,20 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "works": "Works",
+    "blog": "Blog",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "getInTouch": "Get in touch",
+    "menu": "Menu",
+    "identityBranding": "Identity & Branding",
+    "webDevelopment": "Web Development",
+    "uiDesign": "UI Design",
+    "uxDesign": "UX Design",
+    "frontendDevelopment": "Frontend Development",
+    "language": "Language"
+  }
+}
