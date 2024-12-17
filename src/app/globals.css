@@ -12,6 +12,22 @@ body {
   }
 }
 
+@font-face {
+  font-family: "Blauer";
+  src: url("/fonts/Blauer-Regular.woff2") format("woff2"),
+    url("/fonts/Blauer-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Blauer";
+  src: url("/fonts/Blauer-Bold.woff2") format("woff2"),
+    url("/fonts/Blauer-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

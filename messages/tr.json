@@ -19,6 +19,12 @@
     "frontendDevelopment": "Frontend Geliştirme",
     "language": "Dil"
   },
+  "Hero": {
+    "heroTitle": "Fikirlerinizi Güçlü Web Çözümlerine Dönüştürüyoruz",
+    "heroSubtitle": "Kullanıcı dostu, görsel açıdan çekici ve stratejik hedeflerinizi destekleyen web siteleri tasarlıyoruz.",
+    "contactUs": "Bize Ulaşın",
+    "projects": "Projeler"
+  },
   "SecondHero": {
     "heroTitle": "Yaratıcı ve alışılmadık çözümler bulmaya kararlıyız. Müşteri hedeflerini aşmak için sınırları zorluyoruz.",
     "teamMembers": "Takım Üyeleri",
@@ -33,5 +39,50 @@
     "frontenddevelopment": "Frontend Geliştirme",
     "reactjsdevelopment": "ReactJs Geliştirme",
     "nextjsdevelopment": "Nextjs Geliştirme"
+  },
+  "CtaSection": {
+    "heroTitle": "Müşterilerimizin Değişimi Kucaklamalarına Yardımcı Oluyoruz",
+    "heroSubtitle": "Markaların ticari ve kültürel olarak dönüşmelerine, parlamalarına ve yeniden icat edilmelerine yardımcı olmak için hayal gücüne ve teknik becerilere güveniyoruz.",
+    "heroSubtitleAdditional": "En büyük değerimiz müşterinin güvenidir.\nTek başarımız onların başarısıdır.",
+    "getInTouch": "Bize Ulaşın",
+    "accordion": {
+      "webdevelopment": {
+        "title": "Web Geliştirme",
+        "content": "Kişisel ve kurumsal web siteleri, sofistike web uygulamaları ve işinizin özel ihtiyaçlarına uygun özelleştirilmiş çözümler sunan kapsamlı web geliştirme hizmetleri sağlıyoruz. Ekibimiz, ölçeklenebilir, güvenli ve yüksek performanslı web siteleri oluşturmak için en son teknolojileri kullanarak, sadece görsel olarak mükemmel değil, aynı zamanda kesintisiz kullanıcı deneyimleri sunan siteler inşa ediyor."
+      },
+      "ui": {
+        "title": "UI Tasarımı",
+        "content": "UI tasarım hizmetlerimiz, kullanıcı etkileşimini ve memnuniyetini artıran görsel açıdan çekici ve sezgisel kullanıcı arayüzleri yaratmaya odaklanmaktadır. Her bir öğeyi titizlikle tasarlayarak tutarlılık, erişilebilirlik ve kullanım kolaylığı sağlayarak hem estetik hem de fonksiyonel arayüzler sunuyoruz."
+      },
+      "ux": {
+        "title": "UX Tasarımı",
+        "content": "Kullanıcı deneyimleri oluşturma konusunda uzmanız; sezgisel, etkileşimli ve kullanıcılarınızın ihtiyaçlarına göre tasarlanmış deneyimler sunuyoruz. Derinlemesine kullanıcı araştırmaları ve testler yaparak her etkileşimin anlamlı olmasını ve genel deneyimin pozitif olmasını sağlıyoruz, böylece kullanıcı bağlılığı ve memnuniyetini artırıyoruz."
+      },
+      "frontenddevelopment": {
+        "title": "Frontend Geliştirme",
+        "content": "Frontend geliştirme ekibimiz, React, Angular ve Vue.js gibi modern teknolojileri kullanarak duyarlı ve dinamik kullanıcı arayüzleri oluşturma konusunda uzmanlaşmıştır. Web sitenizin sadece görsel olarak çarpıcı olmasını değil, aynı zamanda tüm cihazlarda ve platformlarda kusursuz performans göstermesini sağlayarak kullanıcılarınıza kesintisiz bir gezinme deneyimi sunuyoruz."
+      },
+      "nextjsdevelopment": {
+        "title": "Next.js Geliştirme",
+        "content": "Next.js’in gücünden yararlanarak, iş ihtiyaçlarınıza özel hızlı, ölçeklenebilir ve SEO dostu web uygulamaları oluşturuyoruz. Sunucu tarafı render, statik site üretimi ve API entegrasyonu konusundaki uzmanlığımız, web uygulamalarınızın performans ve arama motoru görünürlüğü açısından optimize edilmesini sağlar."
+      }
+    }
+  },
+  "KeyChangeLayout": {
+    "companiesHireUs": "Şirketler Bizi Kiralıyor",
+    "whenItsTimeForKeyChange": "Anahtar Değişiminin Zamanı Geldiğinde",
+    "reinvention": {
+      "title": "Yeniden Yaratma",
+      "description": "İşletmeler pazarlarını aşarsa ve ölçeklenmeleri gerekirse, bu büyüme ve genişleme için çözümler sunuyoruz."
+    },
+    "transformation": {
+      "title": "Dönüşüm",
+      "description": "Köklü markalar, kişiliklerini korurken modern internet kültürüne uyum sağlamak için kendilerini yeniden icat etme yolları aradıklarında."
+    },
+    "breakthrough": {
+      "title": "Atılım",
+      "description": "Startup ilk defa deneyimleyenlere ürünlerini tasarlama, oluşturma, piyasaya sürme ve finansman sağlama konularında yardımcı oluyoruz."
+    },
+    "abstractGraphicAlt": "Soyut 3D grafik"
   }
 }

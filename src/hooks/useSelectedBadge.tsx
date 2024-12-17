@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const images = {
-  "Web-Development": "/images/gaming.svg",
+  "Web Development": "/images/gaming.svg",
   UI: "/images/e-learning.svg",
   UX: "/images/social-platforms.svg",
   "Frontend Development": "/images/fintech.svg",

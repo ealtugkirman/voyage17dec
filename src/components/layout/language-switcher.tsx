@@ -3,18 +3,17 @@
 import { useState, useEffect } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
-import { Check, ChevronDown, Globe } from "lucide-react";
+import { Check, Globe } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
 
 const languages = [
-  { code: "en", name: "En" },
-  { code: "tr", name: "Tr" },
+  { code: "en", name: "English" },
+  { code: "tr", name: "Türkçe" },
 ];
 
 function LanguageSwitcher() {
@@ -22,6 +21,7 @@ function LanguageSwitcher() {
   const router = useRouter();
   const pathname = usePathname();
   const [currentLocale, setCurrentLocale] = useState("en");
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const locale = pathname.split("/")[1];
@@ -43,34 +43,38 @@ function LanguageSwitcher() {
 
     const newPath = segments.join("/") || "/";
     router.push(newPath);
+    setIsOpen(false);
   };
 
   const currentLanguage =
     languages.find((lang) => lang.code === currentLocale) || languages[0];
 
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button variant="ghost" className="flex items-center gap-2">
+    <Popover open={isOpen} onOpenChange={setIsOpen}>
+      <PopoverTrigger asChild>
+        <Button variant="ghost" className="flex items-center gap-2" aria-label={t('selectLanguage')}>
+          <Globe className="h-4 w-4" />
           <span className="hidden sm:inline-block">{currentLanguage.name}</span>
-          <ChevronDown className="h-4 w-4 opacity-50" />
         </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
-        {languages.map((language) => (
-          <DropdownMenuItem
-            key={language.code}
-            onClick={() => handleLanguageChange(language.code)}
-            className="flex items-center justify-between">
-            <span className="flex items-center gap-2">
+      </PopoverTrigger>
+      <PopoverContent className="w-48 p-0" align="end">
+        <div className="grid gap-1 p-1">
+          {languages.map((language) => (
+            <Button
+              key={language.code}
+              variant="ghost"
+              className="flex items-center justify-between w-full px-2 py-1.5 text-sm"
+              onClick={() => handleLanguageChange(language.code)}
+            >
               <span>{language.name}</span>
-            </span>
-            {currentLocale === language.code && <Check className="h-4 w-4" />}
-          </DropdownMenuItem>
-        ))}
-      </DropdownMenuContent>
-    </DropdownMenu>
+              {currentLocale === language.code && <Check className="h-4 w-4 ml-2" />}
+            </Button>
+          ))}
+        </div>
+      </PopoverContent>
+    </Popover>
   );
 }
 
 export default LanguageSwitcher;
+

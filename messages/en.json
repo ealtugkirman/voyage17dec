@@ -18,7 +18,13 @@
     "frontendDevelopment": "Frontend Development",
     "language": "Language"
   },
-    "SecondHero": {
+  "Hero": {
+    "heroTitle": "Transforming Your Ideas into Powerful Web Solutions",
+    "heroSubtitle": "We design user-friendly, visually appealing websites that support your strategic goals.",
+    "contactUs": "Get in Touch",
+    "projects": "Projects"
+  },
+  "SecondHero": {
     "heroTitle": "We are committed to finding innovative and unconventional solutions. Pushing boundaries to exceed client goals.",
     "teamMembers": "Team Members",
     "completedProjects": "Completed Projects",
@@ -32,5 +38,50 @@
     "frontenddevelopment": "Frontend Development",
     "reactjsdevelopment": "ReactJs Development",
     "nextjsdevelopment": "Nextjs Development"
+  },
+  "CtaSection": {
+    "heroTitle": "Helping clients embrace the change",
+    "heroSubtitle": "We rely on imagination and technical prowess to help brands transform, shine, and reinvent themselves commercially and culturally.",
+    "heroSubtitleAdditional": "Our biggest value is the client's trust.\nOur only achievement is their success.",
+    "getInTouch": "Get in Touch",
+    "accordion": {
+      "webdevelopment": {
+        "title": "Web Development",
+        "content": "We offer comprehensive web development services that encompass personal and corporate websites, sophisticated web applications, and custom solutions tailored to meet your specific business needs. Our team leverages the latest technologies to build scalable, secure, and high-performance websites that not only look great but also deliver seamless user experiences."
+      },
+      "ui": {
+        "title": "UI Design",
+        "content": "Our UI design services focus on creating visually appealing and intuitive user interfaces that enhance user engagement and satisfaction. We meticulously design every element to ensure consistency, accessibility, and ease of use, resulting in interfaces that are both beautiful and functional."
+      },
+      "ux": {
+        "title": "UX Design",
+        "content": "We specialize in crafting user experiences that are intuitive, interactive, and tailored to the needs of your users. By conducting thorough user research and testing, we ensure that every interaction is meaningful and contributes to a positive overall experience, driving user retention and satisfaction."
+      },
+      "frontenddevelopment": {
+        "title": "Frontend Development",
+        "content": "Our frontend development team excels in building responsive and dynamic user interfaces using modern technologies like React, Angular, and Vue.js. We ensure that your website is not only visually stunning but also performs flawlessly across all devices and platforms, providing users with a seamless browsing experience."
+      },
+      "nextjsdevelopment": {
+        "title": "Next.js Development",
+        "content": "Leveraging the power of Next.js, we create fast, scalable, and SEO-friendly web applications tailored to your business requirements. Our expertise in server-side rendering, static site generation, and API integration ensures that your web applications are optimized for performance and search engine visibility."
+      }
+    }
+  },
+  "KeyChangeLayout": {
+    "companiesHireUs": "Companies Hire Us",
+    "whenItsTimeForKeyChange": "When it's time for a key change",
+    "reinvention": {
+      "title": "Reinvention",
+      "description": "When businesses outgrow their markets and need to scale, we provide solutions for this growth and expansion."
+    },
+    "transformation": {
+      "title": "Transformation",
+      "description": "When established brands search for ways to reinvent themselves for the modern internet culture while maintaining their personality."
+    },
+    "breakthrough": {
+      "title": "Breakthrough",
+      "description": "We help startup first-timers design and build their product, roll it out, and get funded."
+    },
+    "abstractGraphicAlt": "Abstract 3D graphic"
   }
 }

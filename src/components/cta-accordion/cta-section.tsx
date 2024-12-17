@@ -1,18 +1,64 @@
-import Accordion from "./cta-accordion";
+import React from "react";
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
 
 function CtaSection() {
   const accordionItems = [
     {
       title: "Brand Strategy",
-      content: <></>, // Add content here
+      content: (
+        <div className="space-y-6 max-w-7xl mx-auto">
+          <p>
+            Strategic brand development and positioning to help you stand out in
+            the market
+          </p>
+          <div className="space-y-4">
+            <h3 className="text-white">Web Development</h3>
+            <ul className="space-y-2 list-disc list-inside">
+              <li>Custom web application development</li>
+              <li>Responsive design implementation</li>
+              <li>Performance optimization</li>
+            </ul>
+          </div>
+        </div>
+      ),
     },
     {
       title: "Design",
-      content: <></>, // Add content here
+      content: (
+        <div className="space-y-6 max-w-7xl mx-auto">
+          <p>
+            Creating visually stunning and functional designs that elevate your
+            brand
+          </p>
+          <div className="space-y-4">
+            <h3 className="text-white">UI Design</h3>
+            <ul className="space-y-2 list-disc list-inside">
+              <li>Interface design systems</li>
+              <li>Visual design and branding</li>
+              <li>Interactive prototypes</li>
+            </ul>
+          </div>
+        </div>
+      ),
     },
     {
       title: "Development",
-      content: <></>, // Add content here
+      content: (
+        <div className="space-y-6 max-w-7xl mx-auto">
+          <p>
+            Building robust and scalable solutions with cutting-edge
+            technologies
+          </p>
+          <div className="space-y-4">
+            <h3 className="text-white">Next.js Development</h3>
+            <ul className="space-y-2 list-disc list-inside">
+              <li>Server-side rendering</li>
+              <li>Static site generation</li>
+              <li>API integration</li>
+            </ul>
+          </div>
+        </div>
+      ),
     },
     {
       title: "Maintenance",
@@ -23,11 +69,11 @@ function CtaSection() {
             reliability of the custom products we've built
           </p>
           <div className="space-y-4">
-            <h3 className="text-white">SRE (Site Reliability Engineering)</h3>
+            <h3 className="text-white">UX Design</h3>
             <ul className="space-y-2 list-disc list-inside">
-              <li>Bring the Pillars team in</li>
-              <li>Run an evaluation report</li>
-              <li>Apply SRE practices</li>
+              <li>User research and testing</li>
+              <li>Information architecture</li>
+              <li>Usability optimization</li>
             </ul>
           </div>
         </div>
@@ -62,7 +108,14 @@ function CtaSection() {
 
         {/* Right Column */}
         <div>
-          <Accordion items={accordionItems} />
+          <Accordion type="single" collapsible>
+            {accordionItems.map((item, index) => (
+              <AccordionItem key={index} value={`item-${index}`}>
+                <AccordionTrigger>{item.title}</AccordionTrigger>
+                <AccordionContent>{item.content}</AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
         </div>
       </div>
     </div>
