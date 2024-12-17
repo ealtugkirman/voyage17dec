@@ -1,6 +1,6 @@
 import "../globals.css";
 import { NextIntlClientProvider, useMessages } from "next-intl";
-import Navbar from "@/components/ui/layout/navbar";
+import Navbar from "@/components/layout/navbar";
 
 
 export default function LocaleLayout({ children, params }) {

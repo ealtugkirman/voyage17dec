@@ -17,5 +17,20 @@
     "uxDesign": "UX Design",
     "frontendDevelopment": "Frontend Development",
     "language": "Language"
+  },
+    "SecondHero": {
+    "heroTitle": "We are committed to finding innovative and unconventional solutions. Pushing boundaries to exceed client goals.",
+    "teamMembers": "Team Members",
+    "completedProjects": "Completed Projects",
+    "inTheBusiness": "in the business",
+    "businessLogo": "Business logo",
+    "selectedBadgeIllustration": "{badge} illustration",
+    "webdevelopment": "Web Development",
+    "ui": "UI",
+    "ux": "UX",
+    "web3": "Web3",
+    "frontenddevelopment": "Frontend Development",
+    "reactjsdevelopment": "ReactJs Development",
+    "nextjsdevelopment": "Nextjs Development"
   }
 }

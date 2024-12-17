@@ -11,6 +11,7 @@ const nextConfig = {
             "pagedone.io",
             "ihm.bilkent.edu.tr",
             "res.cloudinary.com",
+            "picsum.photos",
         ],
     },
 };

@@ -2,7 +2,7 @@
   "Navbar": {
     "home": "Anasayfa",
     "about": "Hakkımızda",
-    "contactUs": "Contact Us",
+    "contactUs": "Bize Ulaşın",
 
     "services": "Hizmetler",
     "works": "Çalışmalar",
@@ -18,5 +18,20 @@
     "uxDesign": "UX Tasarımı",
     "frontendDevelopment": "Frontend Geliştirme",
     "language": "Dil"
+  },
+  "SecondHero": {
+    "heroTitle": "Yaratıcı ve alışılmadık çözümler bulmaya kararlıyız. Müşteri hedeflerini aşmak için sınırları zorluyoruz.",
+    "teamMembers": "Takım Üyeleri",
+    "completedProjects": "Tamamlanan Projeler",
+    "inTheBusiness": "Sektörde",
+    "businessLogo": "İş logosu",
+    "selectedBadgeIllustration": "{badge} illüstrasyonu",
+    "webdevelopment": "Web Geliştirme",
+    "ui": "UI",
+    "ux": "UX",
+    "web3": "Web3",
+    "frontenddevelopment": "Frontend Geliştirme",
+    "reactjsdevelopment": "ReactJs Geliştirme",
+    "nextjsdevelopment": "Nextjs Geliştirme"
   }
 }
