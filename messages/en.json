@@ -68,20 +68,20 @@
     }
   },
   "KeyChangeLayout": {
-    "companiesHireUs": "Companies Hire Us",
-    "whenItsTimeForKeyChange": "When it's time for a key change",
+    "companiesHireUs": "Why Companies Choose DigitalVoyage",
+    "whenItsTimeForKeyChange": "When It's Time for a Strategic Shift",
     "reinvention": {
       "title": "Reinvention",
-      "description": "When businesses outgrow their markets and need to scale, we provide solutions for this growth and expansion."
+      "description": "As businesses evolve and markets expand, DigitalVoyage partners with you to craft scalable solutions that drive growth and open new avenues. Our expertise in web development and strategic planning ensures that your business not only adapts to change but thrives in it."
     },
     "transformation": {
       "title": "Transformation",
-      "description": "When established brands search for ways to reinvent themselves for the modern internet culture while maintaining their personality."
+      "description": "Established brands seeking to modernize their presence turn to DigitalVoyage for transformative strategies. We help reinvigorate your brand for the digital age, maintaining your unique identity while integrating contemporary internet culture and technological advancements."
     },
     "breakthrough": {
       "title": "Breakthrough",
-      "description": "We help startup first-timers design and build their product, roll it out, and get funded."
+      "description": "Startups and first-time entrepreneurs rely on DigitalVoyage to design, develop, and launch their products. From initial concept to market entry and securing funding, we provide the comprehensive support needed to turn innovative ideas into successful, funded ventures."
     },
-    "abstractGraphicAlt": "Abstract 3D graphic"
+    "abstractGraphicAlt": "Abstract 3D graphic representing strategic growth"
   }
 }

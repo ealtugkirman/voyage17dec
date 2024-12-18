@@ -1,5 +1,6 @@
 "use client";
 
+import InteractiveHoverButton from "../ui/interactive-hover-button";
 import ShimmerButton from "../ui/shimmer-button";
 import Accordion from "./cta-accordion";
 import { useTranslations } from "next-intl";
@@ -42,15 +43,7 @@ function CtaSection() {
             <p>{t("heroSubtitle")}</p>
             <p className="whitespace-pre-wrap">{t("heroSubtitleAdditional")}</p>
           </div>
-
-          <ShimmerButton
-            className="shadow-2xl px-10"
-            background="#311ed5"
-            shimmerColor="#ffffff">
-            <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white lg:text-lg">
-              {t("getInTouch")}
-            </span>
-          </ShimmerButton>
+          <InteractiveHoverButton  className="text-black" text={t("getInTouch")} />
         </div>
 
         {/* Right Column */}

@@ -25,11 +25,17 @@ function Accordion({ items }: AccordionProps) {
             onClick={() => toggleItem(index)}
           >
             {item.title}
-            <span className="text-2xl">{openIndex === index ? '-' : '+'}</span>
+            <span className="text-2xl transition-transform duration-300">
+              {openIndex === index ? '-' : '+'}
+            </span>
           </button>
-          {openIndex === index && (
+          <div 
+            className={`overflow-hidden transition-all duration-300 ease-in-out ${
+              openIndex === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+            }`}
+          >
             <div className="pb-6 text-gray-300">{item.content}</div>
-          )}
+          </div>
         </div>
       ))}
     </div>

@@ -69,20 +69,20 @@
     }
   },
   "KeyChangeLayout": {
-    "companiesHireUs": "Şirketler Bizi Kiralıyor",
-    "whenItsTimeForKeyChange": "Anahtar Değişiminin Zamanı Geldiğinde",
+    "companiesHireUs": "Şirketler Neden DigitalVoyage'ı Tercih Ediyor",
+    "whenItsTimeForKeyChange": "Stratejik Değişim Zamanı Geldiğinde",
     "reinvention": {
-      "title": "Yeniden Yaratma",
-      "description": "İşletmeler pazarlarını aşarsa ve ölçeklenmeleri gerekirse, bu büyüme ve genişleme için çözümler sunuyoruz."
+      "title": "Yeniden İcat",
+      "description": "İşletmelerin evrimleştiği ve pazarların genişlediği dönemlerde, DigitalVoyage, büyümeyi teşvik eden ve yeni fırsatlar sunan ölçeklenebilir çözümler geliştirmek için sizinle birlikte çalışır. Web geliştirme ve stratejik planlama konusundaki uzmanlığımız, işletmenizin değişime uyum sağlamasını değil, aynı zamanda bu değişim içinde gelişmesini sağlar."
     },
     "transformation": {
       "title": "Dönüşüm",
-      "description": "Köklü markalar, kişiliklerini korurken modern internet kültürüne uyum sağlamak için kendilerini yeniden icat etme yolları aradıklarında."
+      "description": "Mevcut markaların dijital çağa uyum sağlamak ve modern internet kültürü ile entegre olmak istediklerinde, DigitalVoyage dönüştürücü stratejiler sunar. Eşsiz kimliğinizi koruyarak, markanızı dijital çağın gereksinimlerine uygun şekilde yeniden canlandırıyoruz."
     },
     "breakthrough": {
       "title": "Atılım",
-      "description": "Startup ilk defa deneyimleyenlere ürünlerini tasarlama, oluşturma, piyasaya sürme ve finansman sağlama konularında yardımcı oluyoruz."
+      "description": "Yeni girişimciler ve ilk defa girişim yapanlar, ürünlerini tasarlamak, geliştirmek ve piyasaya sürmek için DigitalVoyage'a güvenirler. İlk konseptten piyasa girişine ve finansman sağlamaya kadar, yenilikçi fikirleri başarılı ve finansmanlı girişimlere dönüştürmek için kapsamlı destek sunuyoruz."
     },
-    "abstractGraphicAlt": "Soyut 3D grafik"
+    "abstractGraphicAlt": "Stratejik büyümeyi temsil eden soyut 3D grafik"
   }
 }
