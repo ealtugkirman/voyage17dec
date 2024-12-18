@@ -66,11 +66,7 @@ const config: Config = {
           from: { transform: "translateX(0)" },
           to: { transform: "translateX(calc(-100% - 4rem))" },
         },
-        "logo-cloud-right": {
-          from: { transform: "translateX(0)" },
-          to: { transform: "translateX(calc(100% + 4rem))" },
-		  },
-		        "accordion-down": {
+		"accordion-down": {
           from: {
             height: "0",
           },
@@ -109,7 +105,6 @@ const config: Config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "logo-cloud": "logo-cloud 35s linear infinite",
-        "logo-cloud-right":"logo-cloud-right 35s linear infinite",
         "accordion-up": "accordion-up 0.2s ease-out",
         "shimmer-slide":
           "shimmer-slide var(--speed) ease-in-out infinite alternate",
