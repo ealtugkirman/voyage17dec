@@ -49,7 +49,7 @@ const Section: React.FC<SectionProps> = ({ title, description }) => (
     whileInView={{ opacity: 1, x: 0, y: 0 }}
     transition={{ duration: 0.6, ease: "easeOut" }}
     viewport={{ once: true }}>
-    <h3 className="text-2xl font-semibold mb-2">{title}</h3>
+    <h3 className="text-2xl font-medium mb-2">{title}</h3>
     <p className="text-gray-600">{description}</p>
   </motion.div>
 );
@@ -73,7 +73,7 @@ function KeyChangeLayout() {
         {t("companiesHireUs")}
       </motion.h2>
       <motion.h1
-        className="text-4xl md:text-5xl font-bold mb-12"
+        className="text-4xl md:text-5xl font-light mb-12"
         initial={{ opacity: 0, x: -50, y: 50 }}
         whileInView={{ opacity: 1, x: 0, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}

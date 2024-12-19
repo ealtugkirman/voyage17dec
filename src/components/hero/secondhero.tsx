@@ -73,7 +73,7 @@ function SecondHero() {
         variants={containerVariants}>
         <motion.div className="flex-1 space-y-8" variants={itemVariants}>
           <motion.h2
-            className="text-2xl md:text-3xl lg:text-4xl font-medium leading-tight max-w-2xl"
+            className="text-2xl md:text-3xl lg:text-4xl font-light leading-tight max-w-2xl"
             variants={itemVariants}>
             {t("heroTitle")}
           </motion.h2>

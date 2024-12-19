@@ -40,7 +40,7 @@ function Hero() {
       animate="visible">
       <div>
         <motion.div
-          className="text-7xl leading-[1.1] tracking-tight font-base mb-8"
+          className="text-7xl leading-[1.1] tracking-tight font-light mb-8"
           variants={itemVariants}>
           <BlurIn word={t("heroTitle")} />
         </motion.div>
