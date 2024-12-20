@@ -15,6 +15,8 @@ import cognizerlogo from "../../public/logos/cognizerlogo.png";
 import hakemportalLogo from "../../public/logos/hakemportalLogo.png";
 import psykri from "../../public/logos/psykri.png";
 import tecvityLogo from "../../public/logos/tecvity-logo.png";
+import bento from "../../public/logos/bento-black.png";
+
 
 const logos = [
   {
@@ -32,6 +34,10 @@ const logos = [
   {
     name: "BIHM",
     img: bihmlogo,
+  },
+    {
+    name: "Bento Tailwinda",
+    img: bento,
   },
   {
     name: "Bilkent",

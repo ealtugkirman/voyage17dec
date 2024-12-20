@@ -1,19 +1,29 @@
-'use client'
+"use client";
 
-import { motion } from 'framer-motion'
-import { Button } from '@/components/ui/button'
-import Image from 'next/image'
-import Link from 'next/link'
-import { Twitter, Instagram, Youtube, Linkedin } from 'lucide-react'
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import Link from "next/link";
+import {
+  Twitter,
+  Instagram,
+  Youtube,
+  Linkedin,
+  Mail,
+  Phone,
+  Clock,
+  MapPin,
+} from "lucide-react";
+import InteractiveHoverButton from "../ui/interactive-hover-button";
 
 const containerVariants = {
   hidden: {},
   visible: {
     transition: {
-      staggerChildren: 0.1
-    }
-  }
-}
+      staggerChildren: 0.1,
+    },
+  },
+};
 
 const itemVariants = {
   hidden: { y: 20, opacity: 0 },
@@ -21,12 +31,12 @@ const itemVariants = {
     y: 0,
     opacity: 1,
     transition: {
-      type: 'spring',
+      type: "spring",
       stiffness: 100,
-      damping: 15
-    }
-  }
-}
+      damping: 15,
+    },
+  },
+};
 
 function CtaFooter() {
   return (
@@ -36,135 +46,104 @@ function CtaFooter() {
           initial="hidden"
           animate="visible"
           variants={containerVariants}
-          className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24"
-        >
+          className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
           {/* Left Column */}
-          <motion.div variants={containerVariants} className="space-y-8">
-            <motion.div variants={itemVariants} className="space-y-4">
-              <h2 className="text-4xl md:text-6xl font-bold">
+          <motion.div variants={containerVariants} className="space-y-12">
+            <motion.div variants={itemVariants} className="space-y-6">
+              <h2 className="text-3xl md:text-6xl font-base leading-tight">
                 Have an idea?
                 <br />
-                Let's build it.
+                <span className="text-white">Let's bring it to life.</span>
               </h2>
-            </motion.div>
-
-            <motion.div variants={itemVariants} className="space-y-4">
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="text-white border-white hover:bg-white hover:text-black transition-colors"
-              >
-                Start your project
-              </Button>
-              <p className="text-lg">
-                <a href="mailto:contact@digitalvoyage.agency" className="hover:text-gray-300 transition-colors">
-                  contact@digitalvoyage.agency
-                </a>
+              <p className="text-lg text-gray-300">
+                Transform your vision into reality with our expert team of
+                designers and developers.
               </p>
             </motion.div>
 
-            <motion.div variants={itemVariants}>
-              <nav className="flex gap-6">
-                <Link href="https://twitter.com/digitalvoyageag" className="hover:text-gray-300 transition-colors">
-                  <Twitter className="w-6 h-6" />
-                  <span className="sr-only">Twitter</span>
-                </Link>
-                <Link href="https://instagram.com/digitalvoyage.agency" className="hover:text-gray-300 transition-colors">
-                  <Instagram className="w-6 h-6" />
-                  <span className="sr-only">Instagram</span>
-                </Link>
-                <Link href="https://youtube.com/@digitalvoyageagency" className="hover:text-gray-300 transition-colors">
-                  <Youtube className="w-6 h-6" />
-                  <span className="sr-only">Youtube</span>
-                </Link>
-                <Link href="https://linkedin.com/company/digitalvoyage-agency" className="hover:text-gray-300 transition-colors">
-                  <Linkedin className="w-6 h-6" />
-                  <span className="sr-only">LinkedIn</span>
-                </Link>
-              </nav>
+            <motion.div variants={itemVariants} className="space-y-6">
+              <InteractiveHoverButton
+                className="text-black  w-72 text-md font-semibold"
+                text="Start your project"
+              />
+              <div className="flex items-center space-x-4">
+                <Mail className="w-6 h-6 text-white" />
+                <a
+                  href="mailto:contact@digitalvoyage.agency"
+                  className="text-lg hover:text-white transition-colors">
+                  contact@digitalvoyage.agency
+                </a>
+              </div>
             </motion.div>
           </motion.div>
 
           {/* Right Column */}
           <motion.div variants={containerVariants} className="space-y-12">
-            <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="space-y-2">
-                <h3 className="font-semibold">Turkey</h3>
-                <p className="text-gray-400">
-                  Maslak, Büyükdere Cd. No:255
-                  <br />
-                  Nurol Plaza B02, Sarıyer/İstanbul
-                </p>
-              </div>
-              <div className="space-y-2">
-                <h3 className="font-semibold">United States</h3>
-                <p className="text-gray-400">
-                  2035 Sunset Lake Road, Suite B-2
-                  <br />
-                  Newark, Delaware 19702
-                </p>
-              </div>
-            </motion.div>
-
-            <motion.div variants={itemVariants} className="space-y-8">
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {/* Certifications/Awards */}
-                <div className="relative aspect-square">
-                  <Image
-                    src="/awards/aws-certified.png"
-                    alt="AWS Certified"
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-                <div className="relative aspect-square">
-                  <Image
-                    src="/awards/google-partner.png"
-                    alt="Google Partner"
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-                <div className="relative aspect-square">
-                  <Image
-                    src="/awards/microsoft-partner.png"
-                    alt="Microsoft Partner"
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-                <div className="relative aspect-square">
-                  <Image
-                    src="/awards/clutch-badge.png"
-                    alt="Clutch Badge"
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-              </div>
-
-              <div className="flex items-center gap-4 bg-zinc-900 p-4 rounded-lg">
-                <div className="relative w-8 h-8">
-                  <Image
-                    src="/awards/clutch-logo.png"
-                    alt="Clutch Rating"
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-                <div className="flex items-baseline gap-2">
-                  <span className="text-xl font-bold">4.9</span>
-                  <span className="text-sm text-gray-400">
-                    Client satisfaction rate
+            <motion.div variants={itemVariants} className="space-y-4">
+              <h3 className="text-4xl font-base">Our Services</h3>
+              <ul className="grid grid-cols-2 gap-2 text-gray-300">
+                {[
+                  "Web Development",
+                  "Mobile Apps",
+                  "UI/UX Design",
+                  "Branding",
+                  "Digital Marketing",
+                  "SEO Optimization",
+                ].map((service) => (
+                  <span
+                    key={service}
+                    className="relative hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-yellow-200 before:origin-center before:h-[1px] before:w-0 hover:before:w-[20%] before:bottom-0 before:left-[20%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-yellow-200 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]"
+                  >
+                    {service}
                   </span>
+                ))}
+              </ul>
+            </motion.div>
+            <motion.div
+              variants={itemVariants}
+              className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="space-y-4">
+                <h3 className="text-lg font-light">Contact Information</h3>
+                <div className="space-y-2 text-gray-300">
+                  <p className="flex items-center">
+                    <Phone className="w-3 h-3 mr-2 text-white" />
+                    <span>+90 530 971 1962</span>
+                  </p>
+                  <p className="flex items-center">
+                    <Clock className="w-3 h-3 mr-2 text-white" />
+                    <span>Mon - Fri: 10:00 - 18:00</span>
+                  </p>
+                  <p className="flex items-center">
+                    <Clock className="w-3 h-3 mr-2 text-white" />
+                    <span>Sat: 10:00 - 15:00</span>
+                  </p>
                 </div>
               </div>
+              <motion.div variants={itemVariants}>
+                <h3 className="text-xl font-light mb-4">Connect with us</h3>
+                <nav className="flex gap-6">
+                  <Link
+                    href="https://twitter.com/ealtugk"
+                    target="_blank"
+                    className="hover:text-white transition-colors">
+                    <Twitter className="w-8 h-8" />
+                    <span className="sr-only">Twitter</span>
+                  </Link>
+                  <Link
+                    href="https://instagram.com/digitalvoyage.agency"
+                    target="_blank"
+                    className="hover:text-white transition-colors">
+                    <Instagram className="w-8 h-8" />
+                    <span className="sr-only">Instagram</span>
+                  </Link>
+                </nav>
+              </motion.div>
             </motion.div>
           </motion.div>
         </motion.div>
       </div>
     </section>
-  )
+  );
 }
 
 export default CtaFooter;

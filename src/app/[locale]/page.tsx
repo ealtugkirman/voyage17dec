@@ -10,6 +10,7 @@ import Showcase from "@/components/showcase/showcase";
 import CtaFooter from "@/components/cta/cta-footer";
 import Footer from "@/components/footer/footer";
 import LogoSlider from "@/components/customer/LogoSlider";
+import DevelopmentProcess from "@/components/development-process/development-process";
 const page = () => {
   useEffect(() => {
     const lenis = new Lenis();
@@ -29,6 +30,7 @@ const page = () => {
       <KeyChangeLayout />
       <LogoSlider />
       <Showcase />
+      <DevelopmentProcess />
       <CtaFooter />
       <Footer />
     </div>

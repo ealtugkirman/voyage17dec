@@ -88,5 +88,9 @@
     "heading": "Our Friends",
     "subheading": "Join this group of outstanding brands we're happy to call our clients",
     "abstractGraphicAlt": "Abstract 3D graphic representing strategic growth"
+  },
+  "Blog": {
+    "title": "Stay tuned for new articles on our blog",
+    "description": "Please contact us to stay updated on our new articles"
   }
 }
