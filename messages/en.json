@@ -92,5 +92,70 @@
   "Blog": {
     "title": "Stay tuned for new articles on our blog",
     "description": "Please contact us to stay updated on our new articles"
+  },
+  "Showcase": {
+    "sectionTitle": "Case Studies",
+    "sectionSubtitle": "High-performing digital products with great designs.",
+    "categoryEcommerce": "E-COMMERCE",
+    "ecommerceDescription": "103% conversion increase in a Shopify store with menswear apparel",
+    "categoryMobileApp": "MOBILE APP",
+    "mobileAppDescription": "Enhanced electric scooter experience with an innovative mobile app",
+    "categoryWebDesign": "WEB DESIGN",
+    "webDesignDescription": "Lightweight and easy-to-read website for a cybersecurity market leader",
+    "ctaText": "Check Our Case Studies",
+    "ctaPrompt": "Hungry for more examples?"
+  },
+  "DevelopmentProcess": {
+    "sectionTitle": "Web Development Process",
+    "sectionSubtitle": "It is designed to provide clarity, efficiency, and high quality at every stage of the project. Here's how we approach building responsive React applications tailored to your business needs.",
+    "startProject": "Start your project",
+    "ctaPrompt": "Hungry for more examples?",
+    "ctaText": "Check Our Case Studies",
+    "step1": {
+      "title": "Discovery and planning",
+      "description": "We start by understanding your vision, business goals, and specific project requirements. This involves conducting in-depth consultations to gather all necessary information, analyzing the feasibility of different technical solutions, and defining an efficient technology stack. Based on this, we create a detailed project roadmap, including milestones, timelines, and resource allocation."
+    },
+    "step2": {
+      "title": "UX/UI design",
+      "description": "Together with the developers, our design team creates intuitive and visually appealing interfaces. We begin with wireframing and prototyping to map out the user flow and test usability early. Then, we refine the UI into high-fidelity designs that align with your branding and accessibility standards. In this phase, we maintain feedback loops to iterate and improve based on stakeholder input."
+    },
+    "step3": {
+      "title": "Agile development",
+      "description": "We follow agile methodologies to ensure flexibility and responsiveness during React development. Projects are broken down into manageable sprints, each with clear goals and deliverables. We build and test features iteratively to maintain continuous progress and quality, with regular peer code reviews and automated testing to prevent issues and ensure consistency."
+    },
+    "step4": {
+      "title": "Launch and optimization",
+      "description": "At later stages, we prepare your application for deployment, ensuring everything runs smoothly. We set up CI/CD pipelines for seamless deployments, and perform optimizations to improve loading times and responsiveness. Additionally, we conduct comprehensive security audits and final testing to detect and resolve any vulnerabilities."
+    },
+    "step5": {
+      "title": "Post-launch support and scaling",
+      "description": "Once your application goes live, we continue to provide support and enhancements. This includes ongoing maintenance to keep the app stable, proactive monitoring and bug fixes, and implementing feature enhancements based on user feedback and evolving business needs. As traffic increases, we optimize the structure to meet growing demand."
+    }
+  },
+  "CtaFooter": {
+    "sectionTitle": {
+      "main": "Have an idea?",
+      "sub": "Let's bring it to life."
+    },
+    "sectionSubtitle": "Transform your vision into reality with our expert team of designers and developers.",
+    "startYourProject": "Start your project",
+    "contactEmail": "contact@digitalvoyage.agency",
+    "ourServices": "Our Services",
+    "servicesList": [
+      "Web Development",
+      "Mobile Apps",
+      "UI/UX Design",
+      "Branding",
+      "Digital Marketing",
+      "SEO Optimization"
+    ],
+    "contactInformation": "Contact Information",
+    "connectWithUs": "Connect with us",
+    "socialMedia": {
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "youtube": "YouTube",
+      "linkedin": "LinkedIn"
+    }
   }
 }

@@ -91,7 +91,7 @@ function LogoSlider() {
     <div className="relative flex h-auto max-w-7xl mx-auto flex-col items-center justify-center overflow-hidden bg-background ">
       <div className="max-w-5xl mx-auto py-12 text-center">
         <h3 className="text-2xl font-thin">{t("heading")}</h3>
-        <h1 className="text-7xl  leading-[1.1] tracking-tight font-light mb-8">
+        <h1 className="text-6xl mx-24  leading-[1.1] tracking-tight font-light mb-8">
           {t("subheading")}
         </h1>
       </div>

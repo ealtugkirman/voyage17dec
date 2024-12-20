@@ -93,5 +93,70 @@
   "Blog": {
     "title": "Blogumuzda yeni yazıları takip edin",
     "description": "Yeni yazılarımızı takip etmek için lütfen bize ulaşın"
+  },
+  "Showcase": {
+    "sectionTitle": "Projeler",
+    "sectionSubtitle": "Harika tasarımlarla yüksek performanslı dijital ürünler.",
+    "categoryEcommerce": "E-TİCARET",
+    "ecommerceDescription": "Erkek giyim ürünleri ile Shopify mağazasında %103 dönüşüm artışı",
+    "categoryMobileApp": "MOBİL UYGULAMA",
+    "mobileAppDescription": "Yenilikçi bir mobil uygulama ile elektrikli scooter deneyimini geliştirdik",
+    "categoryWebDesign": "WEB TASARIM",
+    "webDesignDescription": "Siber güvenlik pazar lideri için hafif ve okunması kolay web sitesi",
+    "ctaText": "Projelerimize Göz Atın",
+    "ctaPrompt": "Daha fazla örneğe mi ihtiyacınız var?"
+  },
+  "DevelopmentProcess": {
+    "sectionTitle": "Web Geliştirme Süreci",
+    "sectionSubtitle": "Projeyi her aşamasında netlik, verimlilik ve yüksek kalite sağlamak üzere tasarlanmıştır. İşletme ihtiyaçlarınıza özel duyarlı React uygulamaları inşa etme yaklaşımımız şu şekildedir.",
+    "startProject": "Projenize Başlayın",
+    "ctaPrompt": "Daha fazla örneğe mi ihtiyacınız var?",
+    "ctaText": "Vaka Çalışmalarımızı İnceleyin",
+    "step1": {
+      "title": "Keşif ve Planlama",
+      "description": "Vizyonunuzu, iş hedeflerinizi ve özel proje gereksinimlerinizi anlamakla başlıyoruz. Bu, tüm gerekli bilgileri toplamak için derinlemesine danışmanlıklar yapmayı, farklı teknik çözümlerin uygulanabilirliğini analiz etmeyi ve verimli bir teknoloji yığını tanımlamayı içerir. Buna dayanarak, kilometre taşları, zaman çizelgeleri ve kaynak tahsisini içeren ayrıntılı bir proje yol haritası oluşturuyoruz."
+    },
+    "step2": {
+      "title": "UX/UI Tasarımı",
+      "description": "Geliştiricilerle birlikte, tasarım ekibimiz sezgisel ve görsel olarak çekici arayüzler oluşturur. Kullanıcı akışını haritalamak ve kullanılabilirliği erken test etmek için tel çerçevelendirme ve prototipleme ile başlıyoruz. Daha sonra, markanızla ve erişilebilirlik standartlarınızla uyumlu yüksek çözünürlüklü tasarımlara UI'yi geliştiriyoruz. Bu aşamada, paydaş geri bildirimlerine dayalı olarak yineleme ve iyileştirme sağlamak için geri bildirim döngülerini sürdürüyoruz."
+    },
+    "step3": {
+      "title": "Çevik Geliştirme",
+      "description": "React geliştirme sırasında esneklik ve yanıt verebilirlik sağlamak için çevik metodolojileri takip ediyoruz. Projeler, her biri net hedeflere ve teslimatlara sahip yönetilebilir sprint'lere bölünür. Sürekli ilerlemeyi ve kaliteyi korumak için özellikleri yinelemeli olarak inşa ediyor ve test ediyoruz, düzenli eş kod incelemeleri ve otomatik testlerle sorunları önlüyoruz ve tutarlılığı sağlıyoruz."
+    },
+    "step4": {
+      "title": "Lansman ve Optimizasyon",
+      "description": "Daha sonraki aşamalarda, uygulamanızı dağıtıma hazırlıyoruz ve her şeyin sorunsuz çalışmasını sağlıyoruz. Sorunsuz dağıtımlar için CI/CD boru hatları kuruyoruz ve yükleme sürelerini ve yanıt verebilirliği artırmak için optimizasyonlar yapıyoruz. Ayrıca, kapsamlı güvenlik denetimleri ve son testler gerçekleştirerek herhangi bir güvenlik açığını tespit edip çözüyoruz."
+    },
+    "step5": {
+      "title": "Lansman Sonrası Destek ve Ölçekleme",
+      "description": "Uygulamanız canlıya geçtiğinde, destek ve geliştirmeler sağlamaya devam ediyoruz. Bu, uygulamanın istikrarlı kalmasını sağlamak için sürekli bakım, proaktif izleme ve hata düzeltmeleri, kullanıcı geri bildirimlerine ve gelişen iş ihtiyaçlarına dayalı olarak özellik geliştirmelerini uygulamayı içerir. Trafik arttıkça, artan talebi karşılamak için yapıyı optimize ediyoruz."
+    }
+  },
+  "CtaFooter": {
+    "sectionTitle": {
+      "main": "Bir fikriniz mi var?",
+      "sub": "Hayata geçirelim."
+    },
+    "sectionSubtitle": "Vizyonunuzu, tasarımcı ve geliştirici uzman ekibimizle gerçeğe dönüştürün.",
+    "startYourProject": "Projenize Başlayın",
+    "contactEmail": "contact@digitalvoyage.agency",
+    "ourServices": "Hizmetlerimiz",
+    "servicesList": [
+      "Web Geliştirme",
+      "Mobil Uygulamalar",
+      "UI/UX Tasarımı",
+      "Markalaşma",
+      "Dijital Pazarlama",
+      "SEO Optimizasyonu"
+    ],
+    "contactInformation": "İletişim Bilgileri",
+    "connectWithUs": "Bize Bağlanın",
+    "socialMedia": {
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "youtube": "YouTube",
+      "linkedin": "LinkedIn"
+    }
   }
 }

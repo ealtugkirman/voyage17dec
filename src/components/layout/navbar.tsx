@@ -13,7 +13,7 @@ function Navbar() {
   const t = useTranslations("Navbar");
 
   return (
-    <nav className="sticky top-0 flex items-center justify-between lg:px-20 lg:py-5 px-10 py-2 ">
+    <nav className="sticky top-0 z-50 flex items-center justify-between lg:px-20 lg:py-5 px-10 py-2 ">
       <Link href="/" className="text-xl text-[#311ed9] font-semibold">
         <Image src={logo} alt="Digital Voyage" width={50} height={50} />
       </Link>

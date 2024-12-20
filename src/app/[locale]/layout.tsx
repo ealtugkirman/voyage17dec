@@ -22,6 +22,7 @@ export default function LocaleLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="font-blauer">
             <Navbar />
+            <div className="h-16" />
             {children}
           </div>
         </NextIntlClientProvider>

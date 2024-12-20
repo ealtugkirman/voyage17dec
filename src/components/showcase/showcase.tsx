@@ -4,6 +4,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import InteractiveHoverButton from "../ui/interactive-hover-button";
+import { useTranslations } from "next-intl"; // Çeviri hook'unu ekleyin
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -31,6 +32,7 @@ const itemVariants = {
 };
 
 function Showcase() {
+  const t = useTranslations("Showcase"); // "Showcase" namespace'unu kullanın
   const videoRef1 = useRef<HTMLVideoElement>(null);
   const videoRef2 = useRef<HTMLVideoElement>(null);
   const videoRef3 = useRef<HTMLVideoElement>(null);
@@ -46,7 +48,7 @@ function Showcase() {
   const handleMouseLeave = (videoRef: React.RefObject<HTMLVideoElement>) => {
     if (videoRef.current) {
       videoRef.current.pause();
-      videoRef.current.currentTime = 0; // Reset video to start
+      videoRef.current.currentTime = 0; // Videoyu başa sarın
     }
   };
 
@@ -61,12 +63,12 @@ function Showcase() {
         <motion.h2
           className="text-md md:text-xl font-light mb-2 max-w-2xl text-gray-600"
           variants={itemVariants}>
-          Case Studies
+          {t("sectionTitle")}
         </motion.h2>
         <motion.h2
           className="text-3xl md:text-4xl font-light mb-16 md:mb-24 max-w-2xl text-gray-900"
           variants={itemVariants}>
-          High-performing digital products with great designs.
+          {t("sectionSubtitle")}
         </motion.h2>
 
         <motion.div
@@ -87,15 +89,15 @@ function Showcase() {
                   loop
                   playsInline
                   className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
+                  aria-label={t("categoryEcommerce")}
                 />
               </div>
               <div className="p-6">
                 <div className="text-sm font-medium text-gray-500 mb-2 uppercase">
-                  E-COMMERCE
+                  {t("categoryEcommerce")}
                 </div>
                 <h3 className="text-lg font-medium leading-tight text-gray-900">
-                  103% conversion increase in a Shopify store with menswear
-                  apparel
+                  {t("ecommerceDescription")}
                 </h3>
               </div>
             </motion.div>
@@ -116,15 +118,15 @@ function Showcase() {
                   loop
                   playsInline
                   className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
+                  aria-label={t("categoryMobileApp")}
                 />
               </div>
               <div className="p-6">
                 <div className="text-sm font-medium text-gray-500 mb-2 uppercase">
-                  MOBILE APP
+                  {t("categoryMobileApp")}
                 </div>
                 <h3 className="text-lg font-medium leading-tight text-gray-900">
-                  Enhanced electric scooter experience with an innovative mobile
-                  app
+                  {t("mobileAppDescription")}
                 </h3>
               </div>
             </motion.div>
@@ -144,15 +146,15 @@ function Showcase() {
                   loop
                   playsInline
                   className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
+                  aria-label={t("categoryWebDesign")}
                 />
               </div>
               <div className="p-6">
                 <div className="text-sm font-medium text-gray-500 mb-2 uppercase">
-                  WEB DESIGN
+                  {t("categoryWebDesign")}
                 </div>
                 <h3 className="text-lg font-medium leading-tight text-gray-900">
-                  Lightweight and easy-to-read website for a cybersecurity
-                  market leader
+                  {t("webDesignDescription")}
                 </h3>
               </div>
             </motion.div>
@@ -165,14 +167,14 @@ function Showcase() {
           <motion.p
             className="text-lg text-gray-600 mb-4 md:mb-0"
             variants={itemVariants}>
-            Hungry for more examples?
+            {t("ctaPrompt")}
           </motion.p>
           <motion.div
-            className="border-2 border-gray-900 text-gray-900 font-medium rounded-full hover:bg-gray-900 hover:text-white transition-colors duration-300"
+            className=" text-gray-900 font-light rounded-full hover:bg-gray-900 hover:text-white transition-colors duration-300"
             variants={itemVariants}>
             <InteractiveHoverButton
               className="text-black w-96"
-              text="Check Our Case Studies"
+              text={t("ctaText")}
             />
           </motion.div>
         </motion.div>
